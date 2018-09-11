@@ -17,6 +17,8 @@ live2d:
 # 简介
 本站是采用 [hugo](http://gohugo.io/) 生成，采用 [even](https://github.com/olOwOlo/hugo-theme-even) 主题，并在上面添加 [live2d](https://github.com/xiazeyu/live2d-widget.js) 插件。^_^
 
+<!--more-->
+
 # Hugo
 **Hugo** 是一个静态网站生成工具，在官网的介绍：
 

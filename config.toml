@@ -22,27 +22,32 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "Home"
+  name = "主页"
   weight = 10
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "Archives"
+  name = "蟲師"
   weight = 20
-  identifier = "archives"
-  url = "/post/"
+  identifier = "mushishi"
+  url = "/mushishi/"
+# [[menu.main]]
+#   name = "Archives"
+#   weight = 20
+#   identifier = "archives"
+#   url = "/post/"
+# [[menu.main]]
+#   name = "Tags"
+#   weight = 30
+#   identifier = "tags"
+#   url = "/tags/"
+# [[menu.main]]
+#   name = "Categories"
+#   weight = 40
+#   identifier = "categories"
+#   url = "/categories/"
 [[menu.main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "Categories"
-  weight = 40
-  identifier = "categories"
-  url = "/categories/"
-[[menu.main]]
-  name = "About"
+  name = "关于"
   weight = 50
   identifier = "About"
   url = "/about"
