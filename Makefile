@@ -7,7 +7,7 @@ docker-down:
 	@docker-compose down
 
 build:
-	@docker-compose up -d build
+	@docker-compose up build
 
 server:
 	@docker-compose up -d server

@@ -9,6 +9,7 @@ services:
       - 1313:1313
   build:
     image: klakegg/hugo:latest
+    entrypoint: hugo
     volumes:
       - .:/src
-      - ./output:/src/public
+      - ./public:/src/public
