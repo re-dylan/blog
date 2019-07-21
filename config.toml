@@ -1,4 +1,4 @@
-baseURL = "https://www.re-dylan.xyz/"
+baseURL = "https://re-dylan.com/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "Dylan's Home Site"
@@ -42,6 +42,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 20
   identifier = "mushishi"
   url = "/mushishi/"
+[[menu.main]]
+  name = "Notes"
+  weight = 40
+  identifier = "notes"
+  url = "/notes/"
 [[menu.main]]
   name = "About"
   weight = 50
@@ -181,20 +186,20 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   [privacy.youtube]
     privacyEnhanced = true
 
-# 将下面这段配置取消注释可以使 hugo 生成 .md 文件
-# Uncomment these options to make hugo output .md files.
-#[mediaTypes]
-#  [mediaTypes."text/plain"]
-#    suffixes = ["md"]
-#
-#[outputFormats.MarkDown]
-#  mediaType = "text/plain"
-#  isPlainText = true
-#  isHTML = false
-#
-#[outputs]
-#  home = ["HTML", "RSS"]
-#  page = ["HTML", "MarkDown"]
-#  section = ["HTML", "RSS"]
-#  taxonomy = ["HTML", "RSS"]
-#  taxonomyTerm = ["HTML"]
+#将下面这段配置取消注释可以使 hugo 生成 .md 文件
+#Uncomment these options to make hugo output .md files.
+[mediaTypes]
+ [mediaTypes."text/plain"]
+   suffixes = ["md"]
+
+[outputFormats.MarkDown]
+ mediaType = "text/plain"
+ isPlainText = true
+ isHTML = false
+
+[outputs]
+ home = ["HTML", "RSS"]
+ page = ["HTML", "MarkDown"]
+ section = ["HTML", "RSS"]
+ taxonomy = ["HTML", "RSS"]
+ taxonomyTerm = ["HTML"]
