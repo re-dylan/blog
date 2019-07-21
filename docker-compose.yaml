@@ -1,0 +1,14 @@
+version: "2.1"
+services:
+  server:
+    image: klakegg/hugo:latest
+    command: server
+    volumes:
+      - .:/src
+    ports:
+      - 1313:1313
+  build:
+    image: klakegg/hugo:latest
+    volumes:
+      - .:/src
+      - ./output:/src/public
