@@ -3,8 +3,8 @@
 # docker-up:
 # 	@docker-compose up -d
 
-# docker-down:
-# 	@docker-compose down
+docker-down:
+	@docker-compose down
 
 build:
 	@docker-compose up -d build
